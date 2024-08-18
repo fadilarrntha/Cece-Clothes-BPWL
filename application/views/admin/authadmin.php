@@ -156,11 +156,12 @@
 	<figure class="pocket">
 		<figure class="card"></figure>
 	</figure>
-	   
-	<input type="username" name="username" placeholder="Username" />
-	<input type="password" name="password" placeholder="Password" />
-	<input type="submit"value="Sign in" />
-</form>
+	<form action="<?= base_url("registeradmin/aksi_login") ?>" method="post">
+		<input type="username" name="username" placeholder="Username" />
+		<input type="password" name="password" placeholder="Password" />
+
+		<input type="submit" value="Sign in" />
+	</form>
 	</div>
 </body>
 
